@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1070225842602",
+    "firebase_url": "https://fretxapp-955f2.firebaseio.com",
+    "project_id": "fretxapp-955f2",
+    "storage_bucket": "fretxapp-955f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070225842602:android:70f1776d30d2164c",
+        "android_client_info": {
+          "package_name": "fretx.version4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070225842602-355qb6is7h7ste3femqk74cnqiuct0uc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fretx.version4",
+            "certificate_hash": "ebc1dfda92d7430b8a1d648adc3636fd1406ef90"
+          }
+        },
+        {
+          "client_id": "1070225842602-fafk95vsp377fvilgisg6p0kg9dor9jc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZZPZlKTnHg7mWHl6DLYDHe6tju5jwy9k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070225842602-fafk95vsp377fvilgisg6p0kg9dor9jc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

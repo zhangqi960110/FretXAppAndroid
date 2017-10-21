@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activities.MainActivity"
+        android:id="@+id/youtubemain_container"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <com.afollestad.easyvideoplayer.EasyVideoPlayer
+            android:id="@+id/videoPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+        </com.afollestad.easyvideoplayer.EasyVideoPlayer>
+
+        <TextView
+            android:text="AB Loop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/primaryText"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="25dp">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@color/secondaryText"
+                android:text="@string/loopA"
+                android:textColor="@color/icons"
+                android:id="@+id/btnStartLoop"
+                android:layout_weight="0.5"
+                android:textSize="15sp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@color/secondaryText"
+                android:text="@string/loopB"
+                android:id="@+id/btnEndLoop"
+                android:layout_weight="0.5"
+                android:textSize="15sp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/icons"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/primaryText"
+            android:layout_gravity="center"
+
+            tools:text="Early Lights"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/prerollValView"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/primaryText"
+            tools:text="0ms"/>
+
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/prerollSlider"
+            android:layout_weight="0.05"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

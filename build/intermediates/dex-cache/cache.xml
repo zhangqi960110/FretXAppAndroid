@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/zhangqi/MyDocument/Projects/FretX/FretXAppAndroid/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9dd9cc525a0e84fd1696d4698b9f169f85e8d93b">
+        <dex dex="/Users/zhangqi/MyDocument/Projects/FretX/FretXAppAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2d8228d82d645e4fa35e24109f932522b1ec632e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhangqi/MyDocument/Projects/FretX/FretXAppAndroid/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/zhangqi/MyDocument/Projects/FretX/FretXAppAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f571c956f92ee549f766ccf50237cd6df9056ab3/classes.dex" />
+    </item>
+
+</items>

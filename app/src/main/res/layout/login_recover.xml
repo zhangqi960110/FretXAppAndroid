@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/fred_emoji" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="103dp"
+            android:gravity="center"
+            android:text="No worries, we will send you a new one"
+            android:textAlignment="center"
+            android:textColor="@color/primaryText"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3" />
+
+    <EditText
+        android:id="@+id/email_signin_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05" />
+
+    <Button
+        android:id="@+id/recover_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        android:text="Send me the password"
+        android:textAllCaps="false"
+        android:textColor="@color/tertiaryText" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.65"
+        android:elevation="1dp" />
+</LinearLayout>
